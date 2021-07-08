@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Bakery</title>
+</head>
+<body>
+  
+  <header class="header">
+    <nav class="nav">
+      <ul class="menu">
+        <li class="menu-item">Menu</li>
+        <li class="menu-item">Portifólio</li>
+        <li class="menu-item">Receitas</li>
+        <li class="img-logo"><img src="./img/logo.svg"></li>
+        <li class="menu-item">Encomenda</li>
+        <li class="menu-item">Contato</li>
+        <li class="menu-item"><a href="#breads">Comprar</li>
+      </ul>
+    </nav> 
+  </header>
+  
+
+  <section class="history-bakery">
+
+    <div class="history-container">
+      <div class="history-text">
+        <h1 data-aos="fade-right" data-aos-duration="3000" >Bakery's Historia</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non provident.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non provident.</p>
+      </div>
+
+      <div class="history-img">
+        <img class="history-img01" src="./img/img-01.png">
+        <img class="history-img02" src="./img/img-02.png">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="bakery-breads">
+    <h1 class="title-breads">Escolha seu pão!</h1>
+
+    <div class="breads-itens">
+      <div class="bread-item" id="breads">
+        <img class="img-bread" src="./img/bread-01.png">
+        <h1 class="title-bread">Integral Bread</h1>
+        <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, fermetum, Integral Bread.</p>
+      </div>
+      <div class="bread-item">
+        <img class="img-bread" src="./img/bread-02.png">
+        <h1 class="title-bread">Nice Bread</h1>
+        <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, fermetum, Nice Bread.</p>
+      </div>
+      <div class="bread-item">
+        <img class="img-bread" src="./img/bread-03.png">
+        <h1 class="title-bread">Baguet Bread</h1>
+        <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, fermetum, Baguet Bread.</p>
+      </div>
+      <div class="bread-item">
+        <img class="img-bread" src="./img/bread-04.png">
+        <h1 class="title-bread">Cookie Noir</h1>
+        <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, fermetum, Cookie Noir.</p>
+      </div>
+      <div class="bread-item">
+        <img class="img-bread" src="./img/bread-05.png">
+        <h1 class="title-bread">Boo Bread</h1>
+        <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, fermetum, Boo Bread.</p>
+      </div>
+      <div class="bread-item">
+        <img class="img-bread" src="./img/bread-06.png">
+        <h1 class="title-bread">Croassaint Bread</h1>
+        <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor, fermetum, Croassaint Bread.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <h1 class="modal-title"></h1>
+      <p class="modal-paragrafo"></p>
+      <img class="img-modal" src="">
+      <span class="valor-bread">R$12,90</span>
+      <button class="button-comprar">COMPRAR</button>   
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
