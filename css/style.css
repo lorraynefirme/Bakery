@@ -126,17 +126,17 @@ img {
   margin-bottom: 5px;
 }
 .bread-item{
-  max-width: 230px;
+  max-width: 240px;
   margin: 30px;
   cursor: pointer;
   text-align: center;
-  transition: transform 700ms ease-in;
+  padding: 15px;
 }
 .bread-item h1{
   padding: 0.6rem;
 }
 .bread-item:hover{
-  transform: scale(1.03);
+  border: 2px solid wheat;
 }
 
 /* MODAL */
